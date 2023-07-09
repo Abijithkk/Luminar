@@ -75,26 +75,25 @@
   </button>
 </div>
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
+<div class="m-5 container w-50">
+<button type="button" class="btn btn-primary text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Add info
 </button>
-
+</div>
 <!-- Modal -->
+
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div><!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Get Training Quote for free</h1> -->
-        <form action="" class="text-center"><h2><b>Get Training Quote for free</b></h2></form>
+        <form action="" class="text-center"><h2><b>Get Training Quote for free</b></h2>
       </div>
       <div class="">Name <hr>
       </div>
       <div>Email <hr>
         <div>Phone Number <hr></div> 
         <div class="dropdown">
-          <a class="btn btn-white dropdown-toggle container" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            
-            Select course interested in
-          </a>
+          <a class="btn btn-white dropdown-toggle container" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Select course interested in</a>
         
           <ul class="dropdown-menu p-5">
             <li><a class="dropdown-item" href="#">Data Science - ML - AI - Big Data with Cloud &amp; Tableau</a></li>
@@ -107,7 +106,12 @@
           </ul>
           <div>City <hr></div>
           <div>Comments</div><br><br><br><hr>
+          
+          <button class="btn btn-primary">
+            Submit
+          </button>
         </div>
+      </form>
         
     </div>
   </div>
